@@ -1,0 +1,20 @@
+#project (File)Write
+#main .$this
+#ubit type = 0\?(function)
+import (['ALL']) from M : file.('main.us')
+import ? from M : error
+import US_main from $project
+Write == function(p1, p2) {
+	if p1 & p2.([0]) ==> "" / ? error((err) : err, [{
+			ubit = 1
+			ubitf = 1
+			kill(ubit?\ubitf : project)
+		}])
+	file.createM(p1 & p2.([0]), 'Write' to .$this or ...$this).[v & t : ? = {
+		g.({0}) = for(g.c_) = {
+			(new file.d)[0] : ? = [z{
+				z{$send(p1)}
+				}]
+			}
+		}]
+}

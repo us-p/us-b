@@ -1,0 +1,6 @@
+#project File
+#main $this
+File.export [0*?]{
+	A:Read = function = "./Read.us" / ? : File.location["Read.us"],
+	A:Write = function = "./Write.us" / ? : File.location["Write.us"]
+}([Read:0, Write:1])

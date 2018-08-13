@@ -1,0 +1,8 @@
+#start Console
+#main .$this
+import File & $File
+var myFile > File.read("./myFile", "./myFile.txt")
+console.$send(myFile.content)
+myFile = [v{
+	File.write(v + "\nTest", v.content)
+}]
