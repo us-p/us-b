@@ -1,8 +1,18 @@
+//Open Terminal
 #start Console
+//select .$this
 #main .$this
+
 import File & $File
+//Read "myFile.txt"
 var myFile > File.read("./myFile", "./myFile.txt")
-console.$send(myFile.content)
+//Send readed file content
+console.$send(myFile.content)//empty
+//Write
 myFile = [v{
 	File.write(v + "\nTest", v.content)
 }]
+/*
+
+Test
+*/
